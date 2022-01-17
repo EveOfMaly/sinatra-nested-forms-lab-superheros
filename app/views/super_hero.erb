@@ -1,1 +1,40 @@
 
+
+
+<form action = '/teams' method = "POST">
+    <h1>Create a Team and Heroes!</h1>
+    <lable for="team">Team Name: </lable>
+    <br>
+    <input type = "text" id="team" name="team[name]">
+    <lable for="team_motto">Team Motto: </lable>
+    <input type = "text" id="team_motto" name="team[motto]">
+    <br>
+    <h2>Hero 1</h2>
+    <lable for="member1_name">Heroe's Name: </lable>
+    <input type = "text" id="member1_name" name="team[members][][name]">
+    <lable for="member1_power">Heroe's Power: </lable>
+    <input type = "text" id="member1_power" name="team[members][][power]">
+    <lable for="member1_bio">Heroe's Biography: </lable>
+    <input type = "text" id="member1_bio" name="team[members][][bio]">
+
+    <h2>Hero 2</h2>
+    <lable for="member1_name">Heroe's Name: </lable>
+    <input type = "text" id="member2_name" name="team[members][][name]">
+    <lable for="member1_power">Heroe's Power: </lable>
+    <input type = "text" id="member2_power" name="team[members][][power]">
+    <lable for="member1_bio">Heroe's Biography: </lable>
+    <input type = "text" id="member2_bio" name="team[members][][bio]">
+
+    <h2>Hero 3</h2>
+   <lable for="member2_name">Heroe's Name: </lable>
+    <input type = "text" id="member3_name" name="team[members][][name]">
+    <lable for="member2_power">Heroe's Power: </lable>
+    <input type = "text" id="member3_power" name="team[members][][power]">
+    <lable for="member2_bio">Heroe's Biography: </lable>
+    <input type = "text" id="member3_bio" name="team[members][][bio]">
+
+    <button>submit</button>
+</form>
+
+
+
